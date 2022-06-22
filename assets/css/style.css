@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap&family=Lato:wght@300&family=Oswald:wght@300&family=Tiro+Telugu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Josefin+Sans:ital,wght@1,700&family=Lato:wght@300&family=Oswald:wght@300&family=Tiro+Telugu:ital@1&display=swap');
 
 * {
     margin: 0;
@@ -6,72 +6,101 @@
     border: none;
 }
 
-body {
-    font-family: Asap;
+#header-background {
+    background-image: url(./images/pexels-kelson-downes-1149137.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center bottom;
+    background-attachment: fixed;
+    padding: 0 0 -20px 0;
+    background-color: #3a3a3a;    
+  }
+
+   #name {
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: Josefin Sans, sans-serif;
     font-weight: 300;
-    
+    padding: 0 0 0 0;
+    opacity: 1;
+  }
+
+ 
+
+/*nav links*/
+#menu {
+  font-size: 110%;
+  letter-spacing: 4px;
 }
 
-.logo {
-    height: 200px;
-    width: 100%;
-    
-    
-    
+#menu li {
+  float:right;
+  list-style-type: none;
+  margin-right: 30px;
 }
+
+#menu a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+
+#menu a:hover {
+  border-bottom:2px solid ;
+  color: aqua;
+}
+
+.active {
+  border-bottom: 2px solid rgb(220, 165, 97);
+  
+}
+
+.intro {
+  margin: 30px 0 0 0;
+  font-family: Oswald, sans-serif;
+  font-size: 130%;
+  text-align: center;
+  background-color: #34a2eb;
+}
+
+.links {
+  margin: 10px 0 0 10px;
+  text-align: center;
+  
+}
+
+.links a {
+float:left
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: inline-flex;
+  position: relative;
+}
+
+
+
 
   
 
-#logo-name{
-    font-family: Asap, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    
-    text-align: center;
-    padding-top: 10px;
-    text-decoration: none;
-}
-h2 {
-    font-family: Oswald, sans-serif;
-    text-align: center;
-}
-
-p {
-    font-family: Tiro+Telugu, sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    text-align: center;
-    margin: 10px 0 0 10px;
-}
-#menu {
-    font-family: Oswald, sans-serif;
-    font-weight: 200;
-    text-align: center;
-    font-size: 150%;
-}
-
-li {
-    display: inline-block;
-}
-
-footer {
-    height: 150px;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+body {
+    font-family: Asap;
+    font-weight: 300;    
 }
 
 
+
+div .logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 200%;
+  text-align: center;
+  color: #ebc934;
+  padding: 50px 0 0 0;
+  font-family: Josefin sans, sans-serif;
+  
+}
 
